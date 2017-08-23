@@ -1,0 +1,27 @@
+.boton_fijo {
+    height: 70px;
+    line-height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.boton_fijo p {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.boton_fijo {
+    display: none!important;
+}
+
+@media only screen and (max-width: 470px) {
+    .boton_fijo {
+        display: block!important;
+    }
+    body {
+        padding-bottom: 70px !important;
+    }
+}

@@ -1,0 +1,24 @@
+#callmeform {
+    width: 100% !important;
+    padding: 1%;
+    box-sizing: border-box;
+    float: left;
+}
+
+#callmeform p {
+    width: 25% !important;
+    float: left;
+    height: 32px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+    #callmeform p {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #callmeform p {
+        width: 100% !important;
+    }
+}
